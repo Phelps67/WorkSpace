@@ -12,7 +12,10 @@ body {
     height: 100vh;
 }
 
-img {
-    width: 75vw;
-    height: 30vw;
+.img-oracle34{
+    margin-top: 1rem;
+    width: 5vw;
+    height: 5vw;
+    border: 1px;
+    border-radius: 1rem;
 }
