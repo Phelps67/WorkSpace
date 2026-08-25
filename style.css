@@ -4,18 +4,29 @@
     box-sizing: border-box;
 }
 
-body {
+.pai{
     display: flex;
-    justify-content: center;
     align-items: center;
-    max-height: 100vh;
-    height: 100vh;
 }
 
-.img-oracle34{
-    margin-top: 1rem;
-    width: 5vw;
-    height: 5vw;
-    border: 1px;
-    border-radius: 1rem;
+#barra{
+    background-color: black;
+    height: 75px;
 }
+
+#teste{
+    color:white;
+    padding-left: 30px;
+}
+
+#inicio{
+    color: white;
+    padding-left: 100px;
+}
+#funcional{
+    color: white;
+    padding-left: 40px;
+}
+
+
+
