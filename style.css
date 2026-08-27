@@ -1,32 +1,71 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.pai{
+body {
+    height: 100vh;
+}
+
+nav {
     display: flex;
+
     align-items: center;
+
+    padding: 20px;
+
+    gap: 30px;
+
+  
 }
 
-#barra{
-    background-color: black;
-    height: 75px;
+h1 {
+    margin-right: 30px;
+    color: red;
+    font-family: bold;
 }
 
-#teste{
-    color:white;
-    padding-left: 30px;
+.metade{
+    font-size: 40px;
 }
 
-#inicio{
-    color: white;
-    padding-left: 100px;
+.ultima{
+    font-size: 18px;
 }
-#funcional{
-    color: white;
-    padding-left: 40px;
+a {
+    color: black;
 }
 
+button {
+    margin-left: auto;
+    padding: 10px;
+}
+
+#solucoes {
+    position: relative;
+}
+
+#opcoes {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1000;
+    text-decoration: underline;
+}
+
+#opcoes a {
+    display: block;
+    padding: 10px;
+}
 
 
+
+#solucoes:hover #opcoes {
+    display: block;
+}
