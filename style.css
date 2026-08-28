@@ -69,3 +69,7 @@ button {
 #solucoes:hover #opcoes {
     display: block;
 }
+
+.botao{
+    font-size: 30px;
+}
