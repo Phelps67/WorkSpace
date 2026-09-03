@@ -112,13 +112,18 @@ main{
     background-color: rgb(8, 182, 230);
     border: none;
     cursor: pointer;
+    height: 35px;
+    width: 150px;
 }
 
 #butau2{
     border-radius: 15px;
-    border: none;
     cursor: pointer;
-    background-color: invi;
+    background-color: rgb(19, 19, 71);
+    color: white;
+    Border: none;
+    height: 35px;
+    width: 150px;
 }
 
 #caixa2{
@@ -141,10 +146,10 @@ main{
     font-size: 23px;
     border: 1px black solid;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     color: darkgray;
     justify-content: center;
     border-color: darkgray;
     border: dashed;
-
+    display: flex;
 }
