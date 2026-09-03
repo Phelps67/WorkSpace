@@ -6,32 +6,26 @@
 
 body {
     height: 100vh;
+    font-size: 15px;
 }
 
+header{
+    border-bottom: 1px black solid;
+
+}
 nav {
     display: flex;
-
     align-items: center;
-
     padding: 20px;
-
     gap: 30px;
-
-  
-}
-
-h1 {
-    margin-right: 30px;
-    color: red;
-    font-family: bold;
 }
 
 .metade{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .ultima{
-    font-size: 18px;
+    font-size: 14px;
 }
 a {
     color: black;
@@ -72,4 +66,85 @@ button {
 
 .botao{
     font-size: 30px;
+    border-radius: 15px;
+}
+
+
+/*              AGORA COMEÇA O "MAIN"                                                        */
+
+main{
+    
+}
+
+.seprecisar{
+    background-color: rgb(24, 24, 91);
+    height: 600px;
+    display: flex;
+}
+
+#versao2{
+    padding-left: 150px;
+    font-size: 15px;
+    color: rgb(52, 171, 171);
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#titulo{
+    padding-left: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+
+}
+
+#descricao{
+    padding-left: 150px;
+    padding-top: 30px;
+    font-size:  20px;
+    color: lightgray;
+}
+
+#butau1{
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: rgb(8, 182, 230);
+    border: none;
+    cursor: pointer;
+}
+
+#butau2{
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: invi;
+}
+
+#caixa2{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(55, 55, 107);
+    padding-right: 300px;
+    border-radius: 15px;
+}
+#caixa1{
+    background-color: rgb(5, 5, 68);
+    width: 500px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 75px;
+    border-radius: 15px;
+}
+
+#dentrodadive{
+    font-size: 23px;
+    border: 1px black solid;
+    display: inline-block;
+    padding: 20px;
+    color: darkgray;
+    justify-content: center;
+    border-color: darkgray;
+    border: dashed;
+
 }
